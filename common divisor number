@@ -1,0 +1,27 @@
+def find_divisors(n):
+    divisors = []
+    for i in range(1, int(n**0.5) + 1):
+        if n % i == 0:
+            divisors.append(i)
+            if i != n // i:
+                divisors.append(n // i)
+    divisors.sort()
+    return divisors
+
+def find_common_divisors(a, b, c):
+    divisors_a = find_divisors(a)
+    divisors_b = find_divisors(b)
+    divisors_c = find_divisors(c)
+    
+    common_divisors = set(divisors_a) & set(divisors_b) & set(divisors_c)
+    
+    return len(common_divisors)
+
+# Reading input
+a = int(input().strip())
+b = int(input().strip())
+c = int(input().strip())
+
+# Calculate and print the number of common divisors
+result = find_common_divisors(a, b, c)
+print(result)
