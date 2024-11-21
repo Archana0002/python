@@ -1,0 +1,25 @@
+*prime
+*Fibonacci
+*factorial
+*sum of digits of number
+*palindrome
+*sum of each row in a mtrix
+*1
+ 22
+ 333
+ 4444
+ 55555
+*         * 
+        * * 
+      * * * 
+    * * * * 
+  * * * * *
+* check if there exist a duplicate key in the array
+* calculate the sum of diagonal of a matrix
+* missing element in an array
+* repaeating string and count
+* swap 2 numbers
+* search an elements from the array
+* max and min element from an array
+* sort elements in an array
+* 
